@@ -23,6 +23,7 @@ CREATE TABLE job_postings_fact(
     company_id              INTEGER,
     job_title_short         VARCHAR,
     job_title               VARCHAR,
+    job_location            VARCHAR,
     job_via                 VARCHAR,
     job_schedule_type       VARCHAR,
     job_work_from_home      VARCHAR,
